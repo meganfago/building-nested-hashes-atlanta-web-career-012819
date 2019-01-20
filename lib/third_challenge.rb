@@ -14,7 +14,9 @@ def third_challenge
         :age => "15"
         },
       :hero_friends => [
-        {
+        {:name => "Benvolio",
+         :age => "17"}
+         
         ]
    }, 
    :capulet => {
