@@ -14,10 +14,10 @@ def third_challenge
         :age => "15"
         },
       :hero_friends => [
-        {:name => "Benvolio",
-         :age => "17"},
-         {:name => "Mercutio",
-        :age => "18"}
+        #{:name => "Benvolio",
+         #:age => "17"},
+         #{:name => "Mercutio",
+        #:age => "18"}
         ]
    }, 
    :capulet => {
@@ -35,10 +35,10 @@ def third_challenge
         :status => "alive"
         },
       :heroine_friends => [
-        {:name => "Steven",
-         :age => "30"},
-         {:name => "Nurse",
-        :age => "44"}
+        # #{:name => "Steven",
+        # :age => "30"},
+        # {:name => "Nurse",
+        # :age => "44"}
         ]
    }
   }
